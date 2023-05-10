@@ -24,6 +24,6 @@ def check_stores(data_path):
 
 
 if __name__ == "__main__":
-    data_path = "C:\\Users\\Flovianey ELION\\PycharmProjects\\Stock_checker\\data.xlsx"
+    data_path = "data.xlsx"
     stores = check_stores(data_path)
     print(stores)
