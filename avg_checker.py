@@ -42,6 +42,6 @@ def analyze_excel_data(file_path):
 
 
 if __name__ == "__main__":
-    file_path = "C:\\Users\\Flovianey ELION\\PycharmProjects\\Stock_checker\\data.xlsx"
+    file_path = "data.xlsx"
     march_sales_by_store = analyze_excel_data(file_path)
     print(march_sales_by_store)
